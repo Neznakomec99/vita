@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'font-awesome';
+  src:  url('fonts/font-awesome.eot?vycsmt');
+  src:  url('fonts/font-awesome.eot?vycsmt#iefix') format('embedded-opentype'),
+    url('fonts/font-awesome.ttf?vycsmt') format('truetype'),
+    url('fonts/font-awesome.woff?vycsmt') format('woff'),
+    url('fonts/font-awesome.svg?vycsmt#font-awesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'font-awesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-chevron-leftfa:before {
+  content: "\f053";
+}
+.fa-chevron-rightfa:before {
+  content: "\f054";
+}
+.fa-chevron-downfa:before {
+  content: "\f078";
+}

@@ -1,0 +1,10 @@
+.fa-chevron-leftfa {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf053;');
+}
+.fa-chevron-rightfa {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf054;');
+}
+.fa-chevron-downfa {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf078;');
+}
+
